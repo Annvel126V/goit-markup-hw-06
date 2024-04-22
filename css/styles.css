@@ -315,7 +315,29 @@ body{
       border-radius: 0px 0px 4px 4px; 
 
     }
-    
+    .container-svg {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 112px;
+      background-color: #f4f4fd;
+      border-radius: 4px;
+      border: 1px solid #8e8f99;
+      margin-bottom: 8px; 
+      display: none;
+    }
+    .svg {
+      padding: 24px 100px;
+      fill: none; 
+      border: 1px solid #8e8f99;
+      border-radius: 4px;
+      background: #f4f4fd;
+      width: 264px;
+      height: 112px;
+     
+     
+      
+    }
     .options-list {
     margin-bottom: 8px; 
     margin-top: 72px;
@@ -341,7 +363,7 @@ body{
       }
       .ul-options-list {
         width: 356px;
-        flex-direction: row;
+        flex-wrap: wrap;
 
       }
       .options-list {
@@ -380,7 +402,7 @@ body{
           border-radius: 4px;
           border: 1px solid #8e8f99;
           margin-bottom: 8px; 
-         
+          display: flex;
         }
         .svg {
           padding: 24px 100px;
