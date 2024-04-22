@@ -362,8 +362,8 @@ body{
      
       }
       .ul-options-list {
-        width: 356px;
-        flex-wrap: wrap;
+        
+        flex-direction: row;
 
       }
       .options-list {
@@ -378,7 +378,7 @@ body{
        }
     }
     @media screen and (min-width: 1158px) {
-      .optionsm {
+        .options {
         padding: 120px 0;
         
          }
@@ -405,8 +405,7 @@ body{
           display: flex;
         }
         .svg {
-          padding: 24px 100px;
-          fill: none; 
+          
           border: 1px solid #8e8f99;
           border-radius: 4px;
           background: #f4f4fd;
@@ -418,23 +417,29 @@ body{
         }
     }
     .our-team{
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 96px;
     background: #f4f4fd; 
-    margin-bottom: 72px;
+    
     margin: 0 auto;
     }
     .ul-our-team{
-      display: flex;
+      display: block;
+      align-items: center; 
+      justify-content: center;
+      flex-direction: row;
+      gap: 32px;
+      width: 264px;
     }
     .container-our-team{
-      padding: 32px 0;
+      padding: 0;
       text-align: center;
+      width: 320px;
     }
     .our-team-titel{
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11;
+    line-height: 1.1;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -493,7 +498,7 @@ body{
     .our-team-list {
     margin-bottom: 8px; 
     text-align: center;
-    flex-direction: row;
+    flex-direction:row;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
