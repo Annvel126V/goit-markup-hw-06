@@ -208,7 +208,7 @@ body{
   margin: 0 auto;
   }
   .ul-our-team{
-    display: flex;
+    display: block;
   }
   .container-our-team{
     padding: 32px 0;
@@ -233,11 +233,10 @@ body{
   width: 100%;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  margin: 72px 0;
+  /* margin: ; */
 }
-
-  
-
-.team-icon-item{
+ .team-icon-item{
   width: 40px;
   height: 40px;
   background-color: #4d5ae5;
@@ -301,8 +300,9 @@ body{
   }
   
   .portfolio-ul{
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex;
+    flex-wrap: wrap; */
+    display: block;
     gap: 48px 24px;
   }
   .our-portfolio{
@@ -906,6 +906,18 @@ body{
       .options-text{
       gap: 24px 72px;
       }
+      .ul-our-team{
+       display: flex;
+       flex-wrap: wrap;
+      }
+     .our-team-card{
+      width: calc((100% - 24px) / 2);
+     }
+
+
+
+
+
 
 
 
@@ -976,6 +988,14 @@ body{
     font-weight: 400;
     padding: 0;
   }
+  .ul-our-team{
+    flex-wrap: nowrap;
+  }
+  .our-team-card{
+    width: 100%;
+    margin: 0;
+  }
+
 
 
 
