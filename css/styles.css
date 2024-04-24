@@ -206,9 +206,7 @@ body{
   background: #f4f4fd; 
   margin: 0 auto;
   }
-  .conteiner-team{
-    width: 768px;
-  }
+  
   .ul-our-team{
     display: flex;
     flex-direction: column;
@@ -929,6 +927,9 @@ body{
       }
       .options-text{
       gap: 24px 72px;
+      }
+      .conteiner-team{
+        width: 584px;
       }
       .ul-our-team{
        display: flex;
