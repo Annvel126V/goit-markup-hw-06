@@ -378,24 +378,31 @@ body{
   color: #434455;
  }
   .footer{
-  padding-top: 100px;
-  padding-bottom: 100px;
+  /* padding-top: 100px;
+  padding-bottom: 100px; */
+  padding-top: 96px;
+  padding-bottom: 96px;
   background: #2e2f42;    
   }
   .container-footer{
-    display: flex;
-    align-items: baseline;
+    /* display: flex; */
+    display: block;
+   
+    /* align-items: baseline; */
   }
   .footer-logo{
   font-family: "Raleway", sans-serif;   
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.03em; 
   text-transform: uppercase;
   color: #4d5ae5;
-  display: inline-block;
+  /* display: inline-block; */
+  margin-left: 86px;
   margin-bottom: 16px;
+ 
+  
   }
   .footer-logo-studio{
   font-family: "Raleway", sans-serif;
@@ -412,15 +419,19 @@ body{
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd; 
-  max-width: 264px;
+  max-width: 288px;
+  /* max-width: 264px; */
   
    }  
    .footer-flex{
-    
-    align-items: baseline;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: baseline; */
     }
     .social{
-      margin-right: 80px;
+      margin: 40px 72px;
+      /* margin-right: 80px; */
     }
    .social-media{
   font-family: "Roboto", sans-serif;
@@ -429,8 +440,10 @@ body{
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
-  display: inline-block;
+  /* display: inline-block; */
   margin-bottom: 16px;
+  margin-left: 96px;
+  margin-top: 72px;
   
   
   }
@@ -481,12 +494,17 @@ body{
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
-  margin-bottom: 16px;
+  margin-top: 72px;
+  margin-left: 112px;
+  
+  /* margin-bottom: 16px; */
   
  }
  .form-subscribe{
-  display: flex;
-  gap: 24px;
+  /* display: flex; */
+  display: block;
+  margin: 16px;
+  /* gap: 24px; */
  }
  
  
@@ -540,7 +558,9 @@ body{
   border: none;
   cursor: pointer;
   transition: backgraund-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
- }
+ margin-top: 16px;
+ margin-left: 61px;
+}
  .subscribe-button-text:hover,
  .subscribe-button-text:focus {
   background-color: #404bbf;
@@ -553,7 +573,8 @@ body{
   
  }
  .footer-box{
-  margin-right: 120px;
+  margin-right: 16px;
+  /* margin-right: 120px; */
  }
  .backdrop{
   position: fixed;
@@ -917,6 +938,42 @@ body{
      .li-portfolio{
      width: calc((100% - 24px) / 2);
      }
+
+     
+     .container-footer{
+       display: flex;
+       align-items: baseline;
+     }
+     .footer-logo{
+       display: inline-block;
+       margin-left: 0; 
+     }
+     .footer-text{
+      max-width: 264px;
+      
+     }
+     .footer-flex{
+      align-items: baseline;
+     }
+     .social{
+      margin: 274px 96px;
+     }
+     .social-media{
+      display: inline-block;
+     }
+     .subscribe-footer{
+       margin-bottom: 16px;
+     }
+     .form-subscribe{
+      display: flex;
+      gap: 24px;
+     }
+     .footer-box{
+      margin-right: 120px;
+     }
+     
+
+
 
 
 
