@@ -208,7 +208,9 @@ body{
   margin: 0 auto;
   }
   .ul-our-team{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
    
   }
   .container-our-team{
