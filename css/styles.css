@@ -209,6 +209,7 @@ body{
   }
   .ul-our-team{
     display: block;
+   
   }
   .container-our-team{
     padding: 32px 0;
@@ -271,6 +272,7 @@ body{
  }
   .our-team-img{
     display: block;
+    margin: 0 auto;
   }
   .our-team-list {
   margin-bottom: 8px; 
