@@ -383,8 +383,7 @@ body{
   color: #434455;
  }
    .footer{
-  /* padding-top: 100px;
-  padding-bottom: 100px; */
+   
   padding-top: 96px;
   padding-bottom: 96px;
   background: #2e2f42;    
@@ -946,12 +945,12 @@ body{
 
      
      .container-footer{
-       display: flex;
        align-items: baseline;
+       width: 584px;
      }
      .footer-logo{
        display: inline-block;
-       margin-left: 0; 
+       
      }
      .footer-text{
       max-width: 264px;
@@ -961,7 +960,7 @@ body{
       align-items: baseline;
      }
      .social{
-      margin: 274px 96px;
+      
      }
      .social-media{
       display: inline-block;
@@ -971,10 +970,11 @@ body{
      }
      .form-subscribe{
       display: flex;
-      gap: 24px;
+      flex-direction: row;
+      gap: 24px 72px;
      }
      .footer-box{
-      margin-right: 120px;
+      /* margin-right: 120px; */
      }
      
 
@@ -1065,4 +1065,12 @@ body{
     .conteiner-team{
       width: 1158px;
     }
+    .footer{
+     padding-top: 100px;
+     padding-bottom: 100px;
+    }
+
+
+
+
      }
