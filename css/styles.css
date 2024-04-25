@@ -99,12 +99,13 @@ body{
    height: 100%;
    position: fixed;
    top: 0;
+   left: 0;
    background-color: #fcfcfc;
    padding: 40px;
    overflow: auto;
    display: flex;
    flex-direction: column;
-   justify-content: space-between;
+   z-index: 999;
   }
   .close-menu-btn{
     position: absolute;
@@ -127,11 +128,12 @@ body{
 
 }
 .mob-nav-list{
-  
+  margin-top: 72px;
+  margin-bottom: 168px;
   flex-direction: column;
 }
 .mob-nav-li{
- gap: 40px;
+ 
 }
 .mob-nav-menu-curent{
   font-weight: 700;
@@ -139,7 +141,7 @@ font-size: 36px;
 line-height: 1.11111;
 letter-spacing: 0.02em;
 color: #404bbf;
-margin-top: 24px;
+
 }
 .mob-nav-menu{
   font-weight: 700;
@@ -150,14 +152,14 @@ margin-top: 24px;
   text-align: start;
 }
 .mob-address{
-
+margin-bottom: 48px;
 }
 .mob-address-list{
 display: flex;
 flex-direction: column;
 }
 .mob-address-li{
-  gap: 24px;
+ 
 }
 .mob-nav-menu-address{
   font-family: "Roboto", sans-serif;
@@ -177,9 +179,12 @@ color: #4d5ae5;
 }
 .mob-social-icon{
 display: flex;
+align-items: center;
+  justify-content: center;
+
 }
 .mob-social-media-icon{
-
+  
 }
 
 
