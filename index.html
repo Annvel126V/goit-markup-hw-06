@@ -12,7 +12,7 @@
 </head>
 <body class="body">
     <!--header-->
-    <!-- <header class="header"> -->
+     <header class="header"> 
         <div class="container header-container">
       <nav class="navigetion">
           <a class="header-logo" href="./index.html">Web<span class="heder-logo-studio">Studio</span></a>
@@ -36,26 +36,43 @@
    </svg>
      </button>
         </div>
-        <div class="mob-menu is-open">
+        <div class="mob-menu">
+         <div> 
+          <button type="button" class="close-menu-btn">
+            <svg class="modal-close-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+            
           <nav class="mob-navigetion">
-            
-            
-                <ul class="nav-list">
-                    <li><a class="mob-nav-menu curent" href="./index.html">Studio</a></li>
-                    <li><a class="mob-nav-menu" href="">Portfolio</a></li>
-                    <li><a class="mob-nav-menu" href="">Contacts</a></li>
+                <ul class="mob-nav-list">
+                    <li class="mob-nav-li">
+                      <a class="mob-nav-menu-curent" href="./index.html">Studio</a>
+                    </li>
+                    <li class="mob-nav-li">
+                      <a class="mob-nav-menu" href="">Portfolio</a>
+                    </li>
+                    <li class="mob-nav-li">
+                      <a class="mob-nav-menu" href="">Contacts</a>
+                    </li>
             </ul>
         </nav>
-    
-       <address class="address">
-        <ul class="address-list">
-            <li><a class="mob-nav-menu-address" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="mob-nav-menu-address" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+      </div>
+       <address class="mob-address">
+        <ul class="mob-address-list">
+            <li class="mob-address-li">
+              <a class="mobnav-menu-address-tel" href="tel:+110001111111">+11 (000) 111-11-11</a>
+              
+            </li>
+            <li>
+              <a class="mob-nav-menu-address" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
         </ul>
        </address>
+      
        <ul class="mob-social-icon">
-        <li class="mob-social-media-icon">
-          <a href="" class="mob-social-link">
+        <li class="social-media-icon">
+          <a href="" class="social-link">
             <svg class="icons-svg" width="24" height="24">
             <use href="./images/icons.svg#icon-instagram"></use>
             </svg>
@@ -68,14 +85,14 @@
             </svg>
           </a>
         </li>
-        <li class="mob-social-media-icon">
+        <li class="social-media-icon">
           <a href="" class="mob-social-link">
             <svg class="icons-svg" width="24" height="24">
             <use href="./images/icons.svg#icon-facebook"></use>
             </svg>
           </a>
         </li>
-        <li class="mob-social-media-icon">
+        <li class="social-media-icon">
           <a href="" class="mob-social-link">
             <svg class="icons-svg" width="24" height="24">
             <use href="./images/icons.svg#icon-linkedin"></use>
@@ -83,8 +100,8 @@
           </a>
         </li>
       </ul>
-        </div>
-     </header> -->
+      </div>
+     </header> 
   <!--Mein-->
     <main>
       <section class="caption">
@@ -426,7 +443,7 @@
     </div>
   </div>
   </footer>
-  <div class="backdrop is-open">
+  <div class="backdrop">
     <div class="modal">
       <button type="button" class="modal-close-btn">
         <svg class="modal-close-icon" width="8" height="8">
