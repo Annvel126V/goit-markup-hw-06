@@ -101,7 +101,7 @@ body{
    top: 0;
    left: 0;
    background-color: #fcfcfc;
-   padding: 40px;
+   padding: 72px 24px 40px 24px;
    overflow: auto;
    display: flex;
    flex-direction: column;
@@ -128,7 +128,7 @@ body{
 
 }
 .mob-nav-list{
-  margin-top: 72px;
+ 
   margin-bottom: 168px;
   flex-direction: column;
 }
@@ -180,8 +180,8 @@ color: #4d5ae5;
 .mob-social-icon{
 display: flex;
 align-items: center;
-  justify-content: center;
-
+justify-content: center;
+gap: 40px;
 }
 .mob-social-media-icon{
   
