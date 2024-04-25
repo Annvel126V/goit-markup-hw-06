@@ -755,11 +755,10 @@ body{
     color: #8e8f99;
     margin-bottom: 24px;
     line-height: 1.17;
-  }
-  .privacy-policy{
-    display: flex;
     align-items: center;
+    display: flex;
   }
+  
     .input-check-link{      
     line-height: 1.33;
     text-decoration: underline;
