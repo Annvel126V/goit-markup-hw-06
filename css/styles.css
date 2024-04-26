@@ -124,17 +124,13 @@ body{
     align-items: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.mob-navigetion{
 
-}
 .mob-nav-list{
  
   margin-bottom: 168px;
   flex-direction: column;
 }
-.mob-nav-li{
- 
-}
+
 .mob-nav-menu-curent{
   font-weight: 700;
 font-size: 36px;
@@ -158,9 +154,9 @@ margin-bottom: 48px;
 display: flex;
 flex-direction: column;
 }
-.mob-address-li{
+
  
-}
+
 .mob-nav-menu-address{
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -183,9 +179,7 @@ align-items: center;
 justify-content: center;
 gap: 40px;
 }
-.mob-social-media-icon{
-  
-}
+
 
 
   .caption{
