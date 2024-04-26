@@ -104,9 +104,17 @@ body{
    padding: 72px 24px 40px 24px;
    overflow: auto;
    display: flex;
+   opacity: 0;
+   visibility: hidden;
+   pointer-events: none;
    flex-direction: column;
    z-index: 999;
   }
+  .mob-menu.is-open {
+    opacity: 1;
+     visibility: visible;
+     pointer-events: auto;
+    }
   .close-menu-btn{
     position: absolute;
     top: 24px;
