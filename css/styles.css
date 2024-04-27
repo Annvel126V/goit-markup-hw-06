@@ -216,7 +216,31 @@ gap: 40px;
     .caption{
       background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
   rgba(46, 47, 66, 0.7)),
+   url(../images/tab-bg.jpg);
+    }  
+  }
+  @media screen and (min-resolusion: 2dppx),
+  (min-resolusion: 192dpi){
+    .caption{
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
+  rgba(46, 47, 66, 0.7)),
    url(../images/tab-bg@2.jpg);
+    }  
+  }
+  @media screen and (min-resolusion: 2dppx),
+  (min-resolusion: 192dpi){
+    .caption{
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
+  rgba(46, 47, 66, 0.7)),
+   url(../images/bg.jpg);
+    }  
+  }
+  @media screen and (min-resolusion: 2dppx),
+  (min-resolusion: 192dpi){
+    .caption{
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
+  rgba(46, 47, 66, 0.7)),
+   url(../images/bg@2.jpg);
     }  
   }
   .caption-img{
