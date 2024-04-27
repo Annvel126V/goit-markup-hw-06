@@ -134,9 +134,7 @@ body{
 }
 
 .mob-nav-list{
- 
-  margin-bottom: 168px;
-  flex-direction: column;
+ flex-direction: column;
 }
 
 .mob-nav-menu-curent{
@@ -156,15 +154,14 @@ color: #404bbf;
   text-align: start;
 }
 .mob-address{
-  margin-top: 168px;
-  margin-bottom: 48px;
+ margin-bottom: 48px;
 }
 .mob-address-list{
 display: flex;
 flex-direction: column;
 }
 .mob-list{
-margin: 0 auto;
+margin-top: 0 auto;
 }
  
 
